@@ -1,0 +1,20 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    margin: 100px;
+}
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition-duration: 1000ms;
+    transition-property: background-color,transform;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+.box:hover{
+    background-color: royalblue;
+    transform: rotate(45deg);
+}
